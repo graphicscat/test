@@ -1,0 +1,1 @@
+void minus(int x, int y);
