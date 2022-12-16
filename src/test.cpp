@@ -6,10 +6,12 @@
 int main()
 {
     //hello();
+    using vec3f = Eigen::Vector3f;
+
     printf("hello,cmake\n");
     int x = add(1,2);
     minus(6,1);
     printf("%d\n",x);
-    Eigen::Vector3f vec(1.f,1.f,1.f);
+    vec3f vec(1.f,1.f,1.f);
     std::cout << vec << std::endl;
 }
